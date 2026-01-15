@@ -61,7 +61,12 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-rest-assured</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
         <!-- JUnit 5 (для запуска тестов) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
